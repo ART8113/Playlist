@@ -261,12 +261,12 @@ background-color: #78adfe ;
 }
 .progres__filled::before {  
 right: 0 ;
-width: .35em ;
+width: .70em ;
 content: " " ;
-height: .35em ;
+height: .70em ;
 border-radius: 50% ;
 position: absolute ;
-background-color: #5781bd ;
+background-color: #255599 ;
 }
 .player__playlist {
 height: 100% ;
