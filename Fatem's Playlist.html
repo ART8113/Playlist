@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,43 +12,141 @@
 
 <body>
 
-    <div class="player">
-        <div class="player__header">
-            <div class="player__img player__img--absolute slider"> <button class="player__button player__button--absolute--nw playlist"> <img src="https://www.uplooder.net/img/image/80/6942fc53b17c3110f5688bb7acf882cc/svgexport-playlist.svg" alt="playlist-icon"> </button> <button class="player__button player__button--absolute--center play"> <img src="https://www.uplooder.net/img/image/13/026328c56218d2acb00fe754c45e3433/svgexport-play.svg" alt="play-icon"> <img src="https://www.uplooder.net/img/image/22/a6e65ebb3d4b3accd709a8df4c9aa1dd/svgexport-pause.svg" alt="pause-icon"> </button>
-                <div class="slider__content"> <img class="img slider__img" src="https://www.uplooder.net/img/image/94/18aafb7ab39f7d0e750d85d805c5e9a0/photo-2023-12-13-15-23-22.jpg" alt="cover"> <img class="img slider__img" src="https://www.uplooder.net/img/image/79/ffca0bdcb32f5358c3f27e8d77a1b267/photo-2019-10-17-23-53-38.jpg" alt="cover"> <img class="img slider__img" src="https://www.uplooder.net/img/image/79/ffca0bdcb32f5358c3f27e8d77a1b267/photo-2019-10-17-23-53-38.jpg" alt="cover"> <img class="img slider__img" src="https://www.uplooder.net/img/image/79/ffca0bdcb32f5358c3f27e8d77a1b267/photo-2019-10-17-23-53-38.jpg" alt="cover"> <img class="img slider__img" src="https://www.uplooder.net/img/image/14/b7eefc343c71087505c63db6e4b026df/photo-2022-02-26-13-23-02.jpg" alt="cover"> <img class="img slider__img" src="https://www.uplooder.net/img/image/87/e339018c4c09e6d0453a59ee7c77e661/photo-2023-08-23-20-41-51.jpg" alt="cover"> <img class="img slider__img" src="https://www.uplooder.net/img/image/85/ea45a975632d60f00136376b95eb57b1/photo-2021-07-04-15-45-10.jpg" alt="cover"> </div>
-            </div>
-            <div class="player__controls"> <button class="player__button back"> <img class="img" src="https://www.uplooder.net/img/image/59/032d3fc857281367a3dcbb3a2883a108/svgexport-whiteback.svg" alt="back-icon"> </button>
-                <p class="player__context slider__context"> <strong class="slider__name"></strong> <span class="player__title slider__title"></span> </p> <button class="player__button next"> <img class="img" src="https://www.uplooder.net/img/image/4/fdee0069b9f0d891e039420fee4f163a/svgexport-whitenext.svg" alt="next-icon"> </button>
-                <div class="progres">
-                    <div class="progres__filled"></div>
-                </div>
-            </div>
-        </div>
-        <ul class="player__playlist list">
-            <li class="player__song"> <img class="player__img img" src="https://www.uplooder.net/img/image/94/18aafb7ab39f7d0e750d85d805c5e9a0/photo-2023-12-13-15-23-22.jpg" alt="cover">
-                <p class="player__context"> <b class="player__song-name">Tasnife Gholab</b> <span class="flex"> <span class="player__title">Homayoun Shajarian</span> <span class="player__song-time"></span> </span> </p> <audio class="audio" src="https://www.uplooder.net/f/tl/91/0463638533988c0bf9abb833d1bb9f68/02-Tasnife-Gholab.mp3"></audio>
-            </li>
-            <li class="player__song"> <img class="player__img img" src="https://www.uplooder.net/img/image/79/ffca0bdcb32f5358c3f27e8d77a1b267/photo-2019-10-17-23-53-38.jpg" alt="cover">
-                <p class="player__context"> <b class="player__song-name">Koli</b> <span class="flex"> <span class="player__title">Homayoun Shajarian</span> <span class="player__song-time"></span> </span> </p> <audio class="audio" src="https://www.uplooder.net/f/tl/47/30316dc300b56f34545adbd9e35aa7d2/Homayon-Shajarian---Koli.mp3"></audio>
-            </li>
-            <li class="player__song"> <img class="player__img img" src="https://www.uplooder.net/img/image/79/ffca0bdcb32f5358c3f27e8d77a1b267/photo-2019-10-17-23-53-38.jpg" alt="cover">
-                <p class="player__context"> <b class="player__song-name">Daroone Ayeneh</b> <span class="flex"> <span class="player__title">Homayoun Shajarian</span> <span class="player__song-time"></span> </span> </p> <audio class="audio" src="https://www.uplooder.net/f/tl/19/e35a3b765bf4bf2d67a305c69c4f03ac/Homayoun-Shajarian-Daroone-Ayeneh.mp3"></audio>
-            </li>
-            <li class="player__song"> <img class="player__img img" src="https://www.uplooder.net/img/image/79/ffca0bdcb32f5358c3f27e8d77a1b267/photo-2019-10-17-23-53-38.jpg" alt="cover">
-                <p class="player__context"> <b class="player__song-name">Chouni Bi Man</b> <span class="flex"> <span class="player__title">Homayoun Shajarian</span> <span class="player__song-time"></span> </span> </p> <audio class="audio" src="https://www.uplooder.net/f/tl/47/efeb489ad64ac0e4b3ea433e1134a01c/Homayoun-Shajarian---Chouni-Bi-Man-.mp3"></audio>
-            </li>
-            <li class="player__song"> <img class="player__img img" src="https://www.uplooder.net/img/image/14/b7eefc343c71087505c63db6e4b026df/photo-2022-02-26-13-23-02.jpg" alt="cover">
-                <p class="player__context "> <b class="player__song-name">Gerye Kon</b> <span class="flex"> <span class="player__title">Homayoun Shajarian</span> <span class="player__song-time"></span> </span> </p> <audio class="audio" src="https://www.uplooder.net/f/tl/67/1f58c3a848605da04c2a01f7b4174a53/Homayoun-Shajarian---Gerye-Kon-(128).mp3"></audio>
-            </li>
-            <li class="player__song"> <img class="player__img img" src="https://www.uplooder.net/img/image/87/e339018c4c09e6d0453a59ee7c77e661/photo-2023-08-23-20-41-51.jpg" alt="cover">
-                <p class="player__context"> <b class="player__song-name">Abr Mibarad</b> <span class="flex"> <span class="player__title">Homayoun Shajarian</span> <span class="player__song-time"></span> </span> </p> <audio class="audio" src="https://www.uplooder.net/f/tl/17/36dd3f27944856777198cf9829a7b4d7/Homayoun-Shajarian---Abr-Mibarad-.mp3"></audio>
-            </li>
-            <li class="player__song"> <img class="player__img img" src="https://www.uplooder.net/img/image/85/ea45a975632d60f00136376b95eb57b1/photo-2021-07-04-15-45-10.jpg" alt="cover">
-                <p class="player__context "> <b class="player__song-name">Yek Nafas Arezouye To</b> <span class="flex"> <span class="player__title">Homayoun Shajarian</span> <span class="player__song-time"></span> </span> </p> <audio class="audio" src="https://www.uplooder.net/f/tl/40/d175643782354c11408ccea55ba6d9aa/Homayoun-Shajarian---Yek-Nafas-Arezouye-To-.mp3"></audio>
-                <script src="script.js"></script>
-            </li>
-        </ul>
+<!-- overlay img  -->
+<div id="overlay" onclick="closeOverlay()">
+    <img src="https://www.uplooder.net/img/image/38/167246410079f7f24623fcabef446030/download.png" alt="Full Width Image">
+    <div id="content">
+      <!-- content overlay img -->
+      <a class="button">Go To Playlist</a>
+
     </div>
+  </div>
+    
+    
+  <div class="player">  
+    <div class="player__header">
+    <div class="player__img player__img--absolute slider">
+    <button class="player__button player__button--absolute--nw playlist">
+    <img src="https://www.uplooder.net/img/image/80/6942fc53b17c3110f5688bb7acf882cc/svgexport-playlist.svg" alt="playlist-icon">
+    </button>
+    <button class="player__button player__button--absolute--center play">
+    <img src="https://www.uplooder.net/img/image/13/026328c56218d2acb00fe754c45e3433/svgexport-play.svg" alt="play-icon">
+    <img src="https://www.uplooder.net/img/image/22/a6e65ebb3d4b3accd709a8df4c9aa1dd/svgexport-pause.svg" alt="pause-icon">
+    </button>
+    <div class="slider__content">
+    <img class="img slider__img" src="https://www.uplooder.net/img/image/82/e5ee85edbb74eab54bb5c54ccf71166c/photo-2023-08-23-20-41-511.jpg" alt="cover"> <!-- cover 01  -->
+    <img class="img slider__img" src="https://www.uplooder.net/img/image/94/18aafb7ab39f7d0e750d85d805c5e9a0/photo-2023-12-13-15-23-22.jpg" alt="cover"> <!-- cover 02  -->
+    <img class="img slider__img" src="https://www.uplooder.net/img/image/79/ffca0bdcb32f5358c3f27e8d77a1b267/photo-2019-10-17-23-53-38.jpg" alt="cover"> <!-- cover 03  -->
+    <img class="img slider__img" src="https://www.uplooder.net/img/image/79/ffca0bdcb32f5358c3f27e8d77a1b267/photo-2019-10-17-23-53-38.jpg" alt="cover"> <!-- cover 04  -->
+    <img class="img slider__img" src="https://www.uplooder.net/img/image/79/ffca0bdcb32f5358c3f27e8d77a1b267/photo-2019-10-17-23-53-38.jpg" alt="cover"> <!-- cover 05  -->
+    <img class="img slider__img" src="https://www.uplooder.net/img/image/14/b7eefc343c71087505c63db6e4b026df/photo-2022-02-26-13-23-02.jpg" alt="cover"> <!-- cover 06  -->
+    <img class="img slider__img" src="https://www.uplooder.net/img/image/85/ea45a975632d60f00136376b95eb57b1/photo-2021-07-04-15-45-10.jpg" alt="cover"> <!-- cover 07  -->
+    </div>
+    </div>
+    <div class="player__controls">
+    <button class="player__button back">
+    <img class="img" src="https://www.uplooder.net/img/image/59/032d3fc857281367a3dcbb3a2883a108/svgexport-whiteback.svg" alt="back-icon">
+    </button>
+    <p class="player__context slider__context">
+    <strong class="slider__name"></strong>
+    <span class="player__title slider__title"></span>
+    </p>
+    <button class="player__button next">
+    <img class="img" src="https://www.uplooder.net/img/image/4/fdee0069b9f0d891e039420fee4f163a/svgexport-whitenext.svg" alt="next-icon">
+    </button>
+    <div class="progres">
+    <div class="progres__filled"></div>
+    </div>
+    </div>
+    </div>
+  <ul class="player__playlist list">
+    <!-- Track 01  -->
+    <li class="player__song">
+       <img class="player__img img" src="https://www.uplooder.net/img/image/82/e5ee85edbb74eab54bb5c54ccf71166c/photo-2023-08-23-20-41-511.jpg" alt="cover">
+       <p class="player__context">
+       <b class="player__song-name">Abr Mibarad</b>
+       <span class="flex">
+       <span class="player__title">Homayoun Shajarian</span>
+       <span class="player__song-time"></span>
+       </span>
+       </p>
+       <audio class="audio" src="https://www.uplooder.net/f/tl/17/36dd3f27944856777198cf9829a7b4d7/Homayoun-Shajarian---Abr-Mibarad-.mp3"></audio>
+    </li>
+    <!-- Track 02  -->
+    <li class="player__song">
+       <img class="player__img img" src="https://www.uplooder.net/img/image/94/18aafb7ab39f7d0e750d85d805c5e9a0/photo-2023-12-13-15-23-22.jpg" alt="cover">
+       <p class="player__context">
+       <b class="player__song-name">Tasnife Gholab</b>
+       <span class="flex">
+       <span class="player__title">Homayoun Shajarian</span>
+       <span class="player__song-time"></span>
+       </span>
+       </p>
+       <audio class="audio" src="https://www.uplooder.net/f/tl/91/0463638533988c0bf9abb833d1bb9f68/02-Tasnife-Gholab.mp3"></audio>
+    </li>
+    <!-- Track 03  -->
+    <li class="player__song">
+        <img class="player__img img" src="https://www.uplooder.net/img/image/79/ffca0bdcb32f5358c3f27e8d77a1b267/photo-2019-10-17-23-53-38.jpg" alt="cover">
+        <p class="player__context">
+        <b class="player__song-name">Koli</b>
+        <span class="flex">
+        <span class="player__title">Homayoun Shajarian</span>
+        <span class="player__song-time"></span>
+        </span>
+        </p>
+        <audio class="audio" src="https://www.uplooder.net/f/tl/47/30316dc300b56f34545adbd9e35aa7d2/Homayon-Shajarian---Koli.mp3"></audio>
+    </li>
+    <!-- Track 04  -->
+    <li class="player__song">
+        <img class="player__img img" src="https://www.uplooder.net/img/image/79/ffca0bdcb32f5358c3f27e8d77a1b267/photo-2019-10-17-23-53-38.jpg" alt="cover">
+        <p class="player__context">
+        <b class="player__song-name">Daroone Ayeneh</b>
+        <span class="flex">
+        <span class="player__title">Homayoun Shajarian</span>
+        <span class="player__song-time"></span>
+        </span>
+        </p>
+        <audio class="audio" src="https://www.uplooder.net/f/tl/19/e35a3b765bf4bf2d67a305c69c4f03ac/Homayoun-Shajarian-Daroone-Ayeneh.mp3"></audio>
+    </li>
+    <!-- Track 05  -->
+    <li class="player__song">
+       <img class="player__img img" src="https://www.uplooder.net/img/image/79/ffca0bdcb32f5358c3f27e8d77a1b267/photo-2019-10-17-23-53-38.jpg" alt="cover">
+       <p class="player__context">
+       <b class="player__song-name">Chouni Bi Man</b>
+       <span class="flex">
+       <span class="player__title">Homayoun Shajarian</span>
+       <span class="player__song-time"></span>
+       </span>
+       </p>
+       <audio class="audio" src="https://www.uplooder.net/f/tl/47/efeb489ad64ac0e4b3ea433e1134a01c/Homayoun-Shajarian---Chouni-Bi-Man-.mp3"></audio>
+    </li>
+    <!-- Track 06  -->
+    <li class="player__song">
+       <img class="player__img img" src="https://www.uplooder.net/img/image/14/b7eefc343c71087505c63db6e4b026df/photo-2022-02-26-13-23-02.jpg" alt="cover">
+       <p class="player__context ">
+       <b class="player__song-name">Gerye Kon</b>
+       <span class="flex">
+       <span class="player__title">Homayoun Shajarian</span>
+       <span class="player__song-time"></span>
+       </span>
+       </p>
+       <audio class="audio" src="https://www.uplooder.net/f/tl/67/1f58c3a848605da04c2a01f7b4174a53/Homayoun-Shajarian---Gerye-Kon-(128).mp3"></audio>
+    </li>
+    <!-- Track 07  -->
+    <li class="player__song">
+       <img class="player__img img" src="https://www.uplooder.net/img/image/85/ea45a975632d60f00136376b95eb57b1/photo-2021-07-04-15-45-10.jpg" alt="cover">
+       <p class="player__context ">
+       <b class="player__song-name">Yek Nafas Arezouye To</b>
+       <span class="flex">
+       <span class="player__title">Homayoun Shajarian</span>
+       <span class="player__song-time"></span>
+       </span>
+       </p>
+       <audio class="audio" src="https://www.uplooder.net/f/tl/40/d175643782354c11408ccea55ba6d9aa/Homayoun-Shajarian---Yek-Nafas-Arezouye-To-.mp3"></audio>
+       <script src="script.js"></script>
+    </li>
+  </ul>
+</div>
 </body>
 
 <footer> 
@@ -58,7 +155,9 @@
       
       
     </h6>
+    <!-- Spotify  -->
     <center ><a href="https://open.spotify.com/playlist/04NZErqVnF0z3hhR3jyhHZ" target="_blank" rel="noopener" > <img height="22" width="150" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Black_Spotify_logo_with_text.svg" alt="spotify"></a></center>
+    <!-- ❤️  -->
     <h6><br><br>With ❤️ from A.R.T & BenFranklin</h6>
 </footer>
 
