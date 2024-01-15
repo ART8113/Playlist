@@ -112,7 +112,7 @@ function openOverlay() {
   }
   function changeBgBody() {
   body.style.backgroundColor = bgBody[count];
-  body.style.backgroundImage = "linear-gradient(black, " + bgBody[count]; + ")";
+  body.style.backgroundImage = "radial-gradient(" + bgBody[count] + ", black)";
   }
   function selectSong() {
   song = playerSongs[count];
