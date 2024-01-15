@@ -1,6 +1,6 @@
 // Designed by: A.R.T
 
-  const bgBody = ["#35306b", "#AAABA7", "#BAB4AB", "#BAB4AB", "#BAB4AB", "#2A2A2A", "#9C9188"];
+  const bgBody = ["#35306b", "#72849E", "#A8586E", "#1F4247", "#B3A14E", "#2A2A2A", "#7F332A"];
   const body = document.body;
   const player = document.querySelector(".player");
   const playerHeader = player.querySelector(".player__header");
