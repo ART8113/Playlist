@@ -172,7 +172,7 @@ display: grid ;
 user-select: none ;
 align-items: center ;
 justify-content: center ;
-background-image: radial-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+background-image: radial-gradient(#35306b , black);
 font-family: 'Quicksand', sans-serif ;
 -webkit-tap-highlight-color: transparent ;
 transition: background-color var(--cubic-slider) ;
