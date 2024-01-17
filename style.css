@@ -67,7 +67,7 @@ body {
     width: 100%; /* full width of the photo */
     height: auto;
     max-height: 100vh; /* maximum height of the photo */
-    max-width: 100vh; /* maximum width of the photo */
+    max-width: 80vh; /* maximum width of the photo */
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
