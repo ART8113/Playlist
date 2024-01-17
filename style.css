@@ -176,7 +176,7 @@ background-image: radial-gradient(#35306b , black);
 font-family: 'Quicksand', sans-serif ;
 -webkit-tap-highlight-color: transparent ;
 transition: background-color var(--cubic-slider) ;
-background-attachment: scroll;
+background-attachment: local;
 }
 .img {
 width: 100% ;
